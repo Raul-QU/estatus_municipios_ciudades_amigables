@@ -4,7 +4,7 @@ library(dplyr)
 library(readxl)
 
 # Ruta de los archivos
-data_path <- "~/IEPAM/Mapa Digital/Pruebas de mapas en R/Shiny/Status municipios/Data"
+data_path <- "Data"
 forma_nl_path <- file.path(data_path, "19ent.shp")
 municipios_path <- file.path(data_path, "19mun.shp")
 excel_path <- file.path(data_path, "status municipios.xlsx")
